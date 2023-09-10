@@ -1,38 +1,43 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div id="main">
-        <h1>Tic Tac Toe</h1>
-        
-        <div class="game-container">
-            <div class="row">
-                <input type="text" class="cell bt" readonly>
-                <input type="text" class="cell bt" readonly>
-                <input type="text" class="cell bt" readonly>
-            </div>
-            <div class="row">
-                <input type="text" class="cell bt" readonly>
-                <input type="text" class="cell bt" readonly>
-                <input type="text" class="cell bt" readonly>
-            </div>
-            <div class="row">
-                <input type="text" class="cell bt" readonly>
-                <input type="text" class="cell bt" readonly>
-                <input type="text" class="cell bt" readonly>
-            </div>
-        </div>
-        <button id="reset-button" onclick="resetGame()">RESET</button>
-        <div id="result-container">
-            <p id="result-text">Player X's Turn</p>
-        </div>
-    </div>
-    <script src="app.js"></script>
-</body>
 
+  <h1>Tic Tac Toe</h1>
+
+  <div class="game-container">
+
+    <div class="row">
+      <input type="text" class="cell bt" readonly>
+      <input type="text" class="cell bt" readonly>  
+      <input type="text" class="cell bt" readonly>
+    </div>
+
+    <div class="row">
+      <input type="text" class="cell bt" readonly>
+      <input type="text" class="cell bt" readonly>
+      <input type="text" class="cell bt" readonly>
+    </div>
+
+    <div class="row">
+      <input type="text" class="cell bt" readonly>
+      <input type="text" class="cell bt" readonly>
+      <input type="text" class="cell bt" readonly>
+    </div>
+
+  </div>
+
+  <button id="reset-button">RESET</button>
+
+  <div id="result-container">
+    <p id="result-text">Player X's Turn</p>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
 </html>
